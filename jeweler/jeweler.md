@@ -126,8 +126,10 @@ spec/purdy\_color\_spec.rb
     Successfully installed purdy_color-0.0.0
     1 gem installed
 
-!SLIDE commandline incremental
+!SLIDE commandline
+
 <pre>
+$ irb
 >> require 'purdy_color'
 => true
 >> puts PurdyColor.red "yay"
@@ -135,3 +137,8 @@ spec/purdy\_color\_spec.rb
 => nil
 </pre>
 
+!SLIDE
+
+TODO: add binary
+
+TODO: add deps
