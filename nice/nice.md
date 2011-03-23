@@ -83,18 +83,18 @@ obscure pop-culture references are the best
             ┣ my_gem.rb
             ┗ my_gem/
 
-!SLIDE
+.notes lib is added to the load path
 
-# About the loadpath
+!SLIDE incremental bullets
 
-Files in `lib/` are in the load path, so nest everything except <GEMNAME>.rb under that. Gives us a namespace.
+# About that there loadpath
 
-    require "my_gem/factory"
 
-loads
+ * `require "my_gem/factory"`
 
-    /lib/my_gem/factory.rb
+ * `lib/my_gem/factory.rb`
 
 .notes put our code in lib/my_gem/base and libe/my_gem.rb would just require it.
+.notes Files in `lib/` are in the load path, so nest everything except <GEMNAME>.rb under that. Gives us a namespace.
 
 

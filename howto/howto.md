@@ -3,11 +3,15 @@
 
 !SLIDE bullets incremental
 
-* `mkdir lib && vim newbie.gemspec`
+# Tools
 
-* hoe
+ * `mkdir lib && vim newbie.gemspec`
 
-* new\_gem
+ * newgem
 
-* Jeweler
+ * hoe
+
+ * ore
+
+ * jeweler
 
