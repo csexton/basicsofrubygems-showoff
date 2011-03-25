@@ -41,7 +41,8 @@
 
 !SLIDE
 
-spec/purdy\_color\_spec.rb
+##### spec/purdy\_color\_spec.rb
+
     @@@ Ruby
     describe "PurdyColor" do
       it "should print escape codes for red" do
@@ -137,8 +138,22 @@ $ irb
 => nil
 </pre>
 
+!SLIDE commandline incremental
+
+    $ mkdir bin
+    $ vim bin/purdy_color
+
 !SLIDE
 
+
+### bin/purdy\_color.rb
+    @@@ Ruby
+    #! /usr/bin/env ruby
+    $:.unshift File.dirname(__FILE__)+'../lib'
+    require 'purdy_color'
+    puts "Lookit: #{ PurdyColor.red "Red" }"
+
+!SLIDE
 TODO: add binary
 
 TODO: add deps

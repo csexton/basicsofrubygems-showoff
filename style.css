@@ -1,3 +1,19 @@
 body {
-  /* background: #9c9; */
+   /* background: #9c9; */
+}
+
+#footer {
+  z-index: 100;
+}
+
+
+.subsection {
+  background: #888;
+  font-size: 2em;
+  /* text-shadow: 8px 8px 8px #000; */
+}
+
+/* remove annoying white line on seubsections */
+#preso .slide {
+  border-right:thin solid #333;
 }

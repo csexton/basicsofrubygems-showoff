@@ -1,9 +1,9 @@
 !SLIDE bullets 
 # Goals
 
- * \#1 MINASWAN
+ * \#1 Be Nice
  * \#2 Learn to Read
- * \#3 Build a Gem
+ * \#3 Build Stuff
 
 !SLIDE
 
