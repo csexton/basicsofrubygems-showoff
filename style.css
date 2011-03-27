@@ -17,3 +17,9 @@ body {
 #preso .slide {
   border-right:thin solid #333;
 }
+
+p.filename {
+  color: #999;
+  padding: 1em;
+  font-size: 1.8em;
+}

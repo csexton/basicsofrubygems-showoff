@@ -16,9 +16,15 @@
 !SLIDE commandline incremental
     $ cd purdy_color
     $ git commit -m "Initial Commit"
+    [master ca6108d] Initial Commit
+     4 files changed, 56 insertions(+), 1 deletions(-)
+     create mode 100644 spec/purdy_color_spec.rb
+     create mode 100644 spec/spec_helper.rb
+
 
 !SLIDE smaller
 
+.filename purdy\_color.gemspec
     @@@ Ruby
     Gem::Specification.new do |s|
       s.name        = "purdy_color"
@@ -41,7 +47,7 @@
     end
 
 !SLIDE smaller
-
+.filename purdy\_color.gemspec
     @@@ Ruby
     Gem::Specification.new do |s|
       s.name        = "purdy_color"
@@ -83,7 +89,7 @@
 
 !SLIDE
 
-spec/spec\_helper.rb
+.filename spec/spec\_helper.rb
     @@@ Ruby
     $:.unshift(File.dirname(__FILE__)+ '../lib')
     require 'rspec'
@@ -91,7 +97,7 @@ spec/spec\_helper.rb
 
 !SLIDE
 
-spec/purdy\_color\_spec.rb
+.filename spec/purdy\_color\_spec.rb
 
     @@@ Ruby
     describe "PurdyColor" do
@@ -118,7 +124,7 @@ spec/purdy\_color\_spec.rb
 
 !SLIDE
 
-spec/purdy\_color\_spec.rb
+.filename spec/purdy\_color\_spec.rb
     @@@ Ruby
     module PurdyColor
       def self.red(str)
@@ -139,6 +145,7 @@ spec/purdy\_color\_spec.rb
 
 !SLIDE
 
+.filename bin/purdy\_color
     @@@ Ruby
     #! /usr/bin/env ruby
 
@@ -164,6 +171,7 @@ spec/purdy\_color\_spec.rb
 
 !SLIDE smaller
 
+.filename purdy_color.gemspec
     @@@ Ruby
     Gem::Specification.new do |s|
       s.name        = "purdy_color"
@@ -188,6 +196,7 @@ spec/purdy\_color\_spec.rb
 
 !SLIDE smaller
 
+.filename purdy_color.gemspec
     @@@ Ruby
     Gem::Specification.new do |s|
       s.name        = "purdy_color"
@@ -249,11 +258,23 @@ $ irb
 <pre>
 $ irb
 >> require 'purdy_color'
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</pre>
+
+!SLIDE commandline
+
+<pre>
+$ irb
+>> require 'purdy_color'
 => true
 &nbsp;
 &nbsp;
 &nbsp;
 </pre>
+
 !SLIDE commandline
 
 <pre>
