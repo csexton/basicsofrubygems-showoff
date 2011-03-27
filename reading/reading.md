@@ -6,13 +6,11 @@
 
 # Got to find it first
 
- * `echo $GEM_PATH`
+ * `find . | grep "gem_name"` ... and wait
 
  * `locate gem_name`
 
  * Open Gem: `gem open`
-
- * `find . | grep "gem_name"` ... and wait
 
  * `bundle show`
 

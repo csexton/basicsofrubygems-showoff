@@ -15,3 +15,5 @@
 
  * jeweler
 
+ * bundler
+

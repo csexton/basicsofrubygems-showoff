@@ -41,7 +41,7 @@ Eric Hodel says...
 
 ### Matches format of `require "gem_name"`
 
-under\_strike, low\_line, low\_dash, under\_ tie, under\_bar, lazy\_hyphen, horizontal\_bar
+.notes under\_strike, low\_line, low\_dash, under\_ tie, under\_bar, lazy\_hyphen, horizontal\_bar
 
 !SLIDE
 
@@ -59,7 +59,7 @@ He is both a doctor and a brain...
 
 # NO UPPER CASE
 
-Yelling is not nice
+.notes Yelling is not nice
 
 !SLIDE
 
@@ -67,8 +67,11 @@ Above all...
 
 # Be overly clever
 
-obscure pop-culture references are the best
+.notes obscure pop-culture references are the best
 
+!SLIDE
+
+# Don't `require 'rubygems'`
 
 !SLIDE
 
@@ -78,7 +81,6 @@ obscure pop-culture references are the best
 
           my_gem/
           ┣ my_gem.gemspec
-          ┣ spec/
           ┗ lib/
             ┣ my_gem.rb
             ┗ my_gem/
@@ -88,7 +90,6 @@ obscure pop-culture references are the best
 !SLIDE incremental bullets
 
 # About that there loadpath
-
 
  * `require "my_gem/factory"`
 

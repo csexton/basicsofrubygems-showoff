@@ -85,7 +85,7 @@ spec/purdy\_color\_spec.rb
 !SLIDE commandline incremental
 
     $ rake build
-    (in /Users/csexton/src/newbiegems-showoff/purdy_color)
+    (in /Users/csexton/src/purdy_color)
     rake aborted!
     "FIXME" or "TODO" is not a description
 
@@ -97,9 +97,9 @@ spec/purdy\_color\_spec.rb
       gem.name = "purdy_color"
       gem.homepage = "http://github.com/csexton/purdy_color"
       gem.license = "MIT"
-      gem.summary = %Q{colors are purdy}
-      gem.description = %Q{Color strings with ansi escape codes}
-      gem.email = "chris@mailinator.com"
+      gem.summary = %q{Prints purdy colors to the console using ANSI escapes}
+      gem.description = %q{Purdy ANSI Colors}
+      gem.email = "csexton@codeography.com"
       gem.authors = ["Christopher Sexton"]
     end
 
@@ -126,6 +126,17 @@ spec/purdy\_color\_spec.rb
     $ gem install pkg/purdy_color-0.0.0.gem
     Successfully installed purdy_color-0.0.0
     1 gem installed
+
+!SLIDE commandline
+
+<pre>
+$ irb
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</pre>
 
 !SLIDE commandline
 

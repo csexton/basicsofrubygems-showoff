@@ -5,7 +5,8 @@
     {"section":"nice"},
     {"section":"reading"},
     {"section":"howto"},
-    {"section":"jeweler"},
+    {"section":"bundler"},
+    /*{"section":"jeweler"},*/
     {"section":"close"}
   ]
 }
