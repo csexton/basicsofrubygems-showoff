@@ -1,6 +1,15 @@
-!SLIDE subsection
-# How to Read
+!SLIDE center
+![Reading RubyGems](reading_rubygems.png)
 
+
+
+!SLIDE
+
+## "When we don't understand a process, we fall into magical thinking about results." 
+## — Jef Raskin
+
+.notes "The source code is the source of information and knowledge." — Matz
+.notes "Talk is cheap. Show me the code." — Linus Torvalds
 
 !SLIDE bullets incremental
 
