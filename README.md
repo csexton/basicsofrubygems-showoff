@@ -2,4 +2,4 @@
 
 [Showoff](https://github.com/schacon/showoff) slides for my talk on the basics of rubygems.
 
-Slides avaliable on heroku: http://basicsofrubygems.heroku.com
+Slides available on Heroku: [http://basicsofrubygems.heroku.com](https://github.com/schacon/showoff)
