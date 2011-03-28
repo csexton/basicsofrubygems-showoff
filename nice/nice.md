@@ -75,6 +75,11 @@ Above all...
 
 !SLIDE
 
+## "When you require 'rubygems' in your code, you remove my ability to make that decision. I cannot unrequire rubygems, but you can not require it in the first place."
+## — Ryan Tomayko
+
+!SLIDE
+
 # Nice Directory Structure
 
 !SLIDE
