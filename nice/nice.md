@@ -2,14 +2,24 @@
 # Be Nice
 
 
-!SLIDE bullets
+!SLIDE bullets incremental
 # Nice Versions
 
  * Format `X.Y.Z`
 
- * Restrict what you need `>= 3.0`, `~> 3.0`, `~> 2.9.2`
+ * Restrict what you need 
+
+ * `>= 3.0`
+
+ * `~> 3.0`
 
 .notes Let’s say you’re depending on the fnord gem version 2.y.z. If you specify your dependency as ">= 2.0.0" then, you’re good, right? What happens if fnord 3.0 comes out and it isn’t backwards compatible with 2.y.z? Your stuff will break as a result of using ">=". The better route is to specify your dependency with a "spermy" version specifier.
+
+!SLIDE center
+
+# BUNDLE UPDATE
+![rageface](ragetest.png)
+# NOTHING WORKS
 
 !SLIDE bullets incremental
 # Nice Versions
@@ -21,7 +31,6 @@
  * Major (__X__.y.z) - Incompatible
 
  * Prerelease (x.y.z__beta2__) - Letters in the number?
-
 
 !SLIDE
 
@@ -72,6 +81,10 @@ Above all...
 !SLIDE
 
 # Don't `require 'rubygems'`
+
+!SLIDE center
+
+![Require Rubygems](require_xzibit.png)
 
 !SLIDE
 

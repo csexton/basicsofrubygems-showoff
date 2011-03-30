@@ -1,7 +1,5 @@
-!SLIDE
-# Newbie Gems
-
-### The basics of rubygems
+!SLIDE center
+![Basics of RubyGems](title.png)
 
 !SLIDE
 
