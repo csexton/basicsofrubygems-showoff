@@ -1,12 +1,12 @@
-!SLIDE
+!SLIDE center
 
-# Thanks!
+![Thanks](thanks.png)
 
-### github.com/csexton
-### www.codeography.com
-### @fuzzymonk
 
-## Slides Available on Heroku
-### basicsofrubygems.heroku.com
+.notes github.com/csexton
+.notes www.codeography.com
+.notes @fuzzymonk
+
+.notes Slides Available on Heroku: basicsofrubygems.heroku.com
 
 
