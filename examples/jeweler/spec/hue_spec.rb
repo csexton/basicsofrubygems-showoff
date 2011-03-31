@@ -4,6 +4,5 @@ describe "Hue" do
   it "should print escape codes for red" do
     s = Hue.red("test")
     s.include?("\033[31m").should be_true
-    nil.himim
   end
 end

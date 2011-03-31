@@ -25,7 +25,7 @@
 !SLIDE commandline incremental
 
     $ rake build
-    (in /Users/csexton/src/newbiegems-showoff/hue)
+    (in /Users/csexton/src/hue)
     rake aborted!
     "FIXME" or "TODO" is not a description
 

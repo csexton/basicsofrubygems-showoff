@@ -106,7 +106,7 @@ spec/hue\_spec.rb
 !SLIDE commandline incremental
 
     $ rake version:write
-    (in /Users/csexton/src/newbiegems-showoff/hue)
+    (in /Users/csexton/src/hue)
     Updated version: 0.0.0
     $ cat VERSION
      0.0.0
@@ -115,7 +115,7 @@ spec/hue\_spec.rb
 !SLIDE commandline incremental
 
     $ rake build                                                    ruby-1.9.2-p180
-    (in /Users/csexton/src/newbiegems-showoff/hue)
+    (in /Users/csexton/src/hue)
       Successfully built RubyGem
       Name: hue
       Version: 0.0.0

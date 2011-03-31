@@ -97,9 +97,7 @@
 
 !SLIDE
 
-# Nice Directory Structure
-
-!SLIDE
+# Directory Structure
 
           my_gem/
           ┣ my_gem.gemspec
@@ -109,15 +107,16 @@
 
 .notes lib is added to the load path
 
-!SLIDE incremental bullets
+!SLIDE bullets incremental
 
 # About that there loadpath
 
- * `require "my_gem/factory"`
-
+ * Array of directories
+ * That can act like a namespace, so...
+ * `require "my_gem/factory"` will load...
  * `lib/my_gem/factory.rb`
 
 .notes put our code in lib/my_gem/base and libe/my_gem.rb would just require it.
-.notes Files in `lib/` are in the load path, so nest everything except <GEMNAME>.rb under that. Gives us a namespace.
+.notes Files in `lib/` are in the load path, so nest everything except GEMNAME.rb under that. Gives us a namespace.
 
 
