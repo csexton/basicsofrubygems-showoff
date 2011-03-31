@@ -2,27 +2,9 @@
 
 ![Nice](matz.png)
 
-!SLIDE bullets incremental
-# Nice Versions
-
- * Format `X.Y.Z`
-
- * Restrict what you need 
-
- * `>= 3.0`
-
- * `~> 3.0`
-
-.notes Let’s say you’re depending on the fnord gem version 2.y.z. If you specify your dependency as ">= 2.0.0" then, you’re good, right? What happens if fnord 3.0 comes out and it isn’t backwards compatible with 2.y.z? Your stuff will break as a result of using ">=". The better route is to specify your dependency with a "spermy" version specifier.
-
-!SLIDE center
-
-# BUNDLE UPDATE
-![rageface](ragetest.png)
-# NOTHING WORKS
 
 !SLIDE bullets incremental
-# Nice Versions
+# Version Numbers
 
  * Build Number (x.y.__Z__) - Every release
 
@@ -32,15 +14,35 @@
 
  * Prerelease (x.y.z__beta2__) - Letters in the number?
 
+!SLIDE bullets incremental
+# Version Numbers
+
+ * Restrict what you need
+
+ * And no more
+
+ * `>= 3.0`
+
+ * `~> 3.0`
+
+.notes Let’s say you’re depending on the fnord gem version 2.y.z. If you specify your dependency as ">= 2.0.0" then, you’re good, right? What happens if fnord 3.0 comes out and it isn’t backwards compatible with 2.y.z? Your stuff will break as a result of using ">=". The better route is to specify your dependency with a "spermy" version specifier.
+
+
+!SLIDE center
+
+# BUNDLE UPDATE
+![rageface](ragetest.png)
+# NOTHING WORKS
+
 !SLIDE
 
+.filename Tom Preston-Werner's
 # Semantic Versioning
-
 ## http://semver.org/
 
-!SLIDE
+!SLIDE center
 
-# Nice Names
+![Nice Names](names.png)
 
 !SLIDE
 
@@ -56,7 +58,7 @@
 
 .filename Dr. Brain says...
 
-# Use dashes for extensions
+# Use dashes-for-extensions
 
 ### Extending another gem or adding namespace
 
@@ -68,7 +70,7 @@
 
 # NO UPPER CASE
 
-.notes Yelling is not nice
+### Inside voices please
 
 !SLIDE bullets incremental
 

@@ -1,19 +1,26 @@
-!SLIDE bullets 
+!SLIDE bullets
 # Goals
 
  * \#1 Be Nice
  * \#2 Reading is Fun
- * \#3 Don't think, Do
+ * \#3 Build Stuff
 
-!SLIDE
+!SLIDE bullets
+# Important Goals
 
-# Only \#1 and \#2 are important
+ * \#1 Be Nice
+ * \#2 Reading is Fun
+ * &nbsp;
+
 
 !SLIDE bullets incremental
 
 # MINASWAN
 * __M__atz __I__s __N__ice __A__nd __S__o __W__e __A__re __N__ice
 * This effects how you build a gem
+
+!SLIDE center
+![MINASWAN](minaswan.png)
 
 !SLIDE bullets
 
@@ -23,4 +30,5 @@
 !SLIDE bullets
 
 # Build It
- * Don't think, do.
+ * Don't think, do
+ * Experiment and Play

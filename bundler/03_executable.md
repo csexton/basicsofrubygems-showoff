@@ -9,7 +9,7 @@
     @@@ Ruby
     #! /usr/bin/env ruby
 
-    $:.unshift File.dirname(__FILE__) + '../lib'
+    $:.unshift File.dirname(__FILE__) + '/../lib'
     require 'hue'
 
     puts Hue.red ARGV.join(" ")

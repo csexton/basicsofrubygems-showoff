@@ -68,7 +68,7 @@
 
 .filename spec/spec\_helper.rb
     @@@ Ruby
-    $:.unshift(File.dirname(__FILE__)+ '../lib')
+    $:.unshift File.dirname(__FILE__) + '/../lib'
     require 'rspec'
     require 'hue'
 
@@ -101,7 +101,7 @@
 
 !SLIDE
 
-.filename spec/hue\_spec.rb
+.filename lib/hue.rb
     @@@ Ruby
     module Hue
       def self.red(str)

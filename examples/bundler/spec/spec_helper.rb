@@ -10,7 +10,7 @@
 #RSpec.configure do |config|
 #
 #end
-$:.unshift(File.dirname(__FILE__) + '../lib')
+$: << (File.dirname(__FILE__) + '/../lib')
 require 'rspec'
 require 'hue'
 

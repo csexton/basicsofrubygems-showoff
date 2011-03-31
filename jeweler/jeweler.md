@@ -160,7 +160,7 @@ $ irb
 ### bin/hue.rb
     @@@ Ruby
     #! /usr/bin/env ruby
-    $:.unshift File.dirname(__FILE__)+'../lib'
+    $:.unshift File.dirname(__FILE__)+'/../lib'
     require 'hue'
     puts "Lookit: #{ Hue.red "Red" }"
 
