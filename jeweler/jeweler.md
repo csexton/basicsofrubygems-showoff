@@ -41,12 +41,12 @@
 
 !SLIDE
 
-##### spec/purdy\_color\_spec.rb
+##### spec/hue\_spec.rb
 
     @@@ Ruby
-    describe "PurdyColor" do
+    describe "Hue" do
       it "should print escape codes for red" do
-        s = PurdyColor.red("test")
+        s = Hue.red("test")
         s.include?("\033[31m").should be_true
       end
     end
@@ -58,19 +58,19 @@
 
     Failures:
 
-      1) PurdyColor should print escape codes for red
-         Failure/Error: PurdyColor.red("test").should contain?("\033[31m")
+      1) Hue should print escape codes for red
+         Failure/Error: Hue.red("test").should contain?("\033[31m")
          NameError:
-           uninitialized constant RSpec::Core::ExampleGroup::Nested_1::PurdyColor
+           uninitialized constant RSpec::Core::ExampleGroup::Nested_1::Hue
 
     Finished in 0.00041 seconds
     1 example, 1 failure
 
 !SLIDE
 
-spec/purdy\_color\_spec.rb
+spec/hue\_spec.rb
     @@@ Ruby
-    module PurdyColor
+    module Hue
       def self.red(str)
         "\033[31m#{str}\033[0ma"
       end
@@ -98,7 +98,7 @@ spec/purdy\_color\_spec.rb
       gem.homepage = "http://github.com/csexton/hue"
       gem.license = "MIT"
       gem.summary = %q{Prints purdy colors to the console using ANSI escapes}
-      gem.description = %q{Purdy ANSI Colors}
+      gem.description = %q{ANSI Colors}
       gem.email = "csexton@codeography.com"
       gem.authors = ["Christopher Sexton"]
     end
@@ -144,7 +144,7 @@ $ irb
 $ irb
 >> require 'hue'
 => true
->> puts PurdyColor.red "yay"
+>> puts Hue.red "yay"
 <span style="color:red">yay</span>
 => nil
 </pre>
@@ -157,12 +157,12 @@ $ irb
 !SLIDE
 
 
-### bin/purdy\_color.rb
+### bin/hue.rb
     @@@ Ruby
     #! /usr/bin/env ruby
     $:.unshift File.dirname(__FILE__)+'../lib'
     require 'hue'
-    puts "Lookit: #{ PurdyColor.red "Red" }"
+    puts "Lookit: #{ Hue.red "Red" }"
 
 !SLIDE
 TODO: add binary

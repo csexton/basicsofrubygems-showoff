@@ -1,10 +1,10 @@
 !SLIDE smaller
 
-.filename purdy\_color.gemspec
+.filename hue.gemspec
     @@@ Ruby
     Gem::Specification.new do |s|
       s.name        = "hue"
-      s.version     = PurdyColor::VERSION
+      s.version     = Hue::VERSION
       s.platform    = Gem::Platform::RUBY
       s.authors     = ["TODO: Write your name"]
       s.email       = ["TODO: Write your email address"]
@@ -23,11 +23,11 @@
     end
 
 !SLIDE smaller
-.filename purdy\_color.gemspec
+.filename hue.gemspec
     @@@ Ruby
     Gem::Specification.new do |s|
       s.name        = "hue"
-      s.version     = PurdyColor::VERSION
+      s.version     = Hue::VERSION
       s.platform    = Gem::Platform::RUBY
       s.authors     = ["TODO: Write your name"]
       s.email       = ["TODO: Write your email address"]
@@ -74,12 +74,12 @@
 
 !SLIDE
 
-.filename spec/purdy\_color\_spec.rb
+.filename spec/hue\_spec.rb
 
     @@@ Ruby
-    describe "PurdyColor" do
+    describe "Hue" do
       it "should print escape codes for red" do
-        s = PurdyColor.red("test")
+        s = Hue.red("test")
         s.include?("\033[31m").should be_true
       end
     end
@@ -91,19 +91,19 @@
 
     Failures:
 
-      1) PurdyColor should print escape codes for red
-         Failure/Error: PurdyColor.red("test").should contain?("\033[31m")
+      1) Hue should print escape codes for red
+         Failure/Error: Hue.red("test").should contain?("\033[31m")
          NameError:
-           uninitialized constant RSpec::Core::ExampleGroup::Nested_1::PurdyColor
+           uninitialized constant RSpec::Core::ExampleGroup::Nested_1::Hue
 
     Finished in 0.00041 seconds
     1 example, 1 failure
 
 !SLIDE
 
-.filename spec/purdy\_color\_spec.rb
+.filename spec/hue\_spec.rb
     @@@ Ruby
-    module PurdyColor
+    module Hue
       def self.red(str)
         "\033[31m#{str}\033[0ma"
       end

@@ -5,19 +5,19 @@
 
 !SLIDE
 
-.filename bin/purdy\_color
+.filename bin/hue
     @@@ Ruby
     #! /usr/bin/env ruby
 
     $:.unshift File.dirname(__FILE__) + '../lib'
     require 'hue'
 
-    puts PurdyColor.red ARGV.join(" ")
+    puts Hue.red ARGV.join(" ")
 
 !SLIDE commandline incremental
 
-    $ git commit -am "Purdy exectuable"
-    [master 18d8011] Purdy exectuable
+    $ git commit -am "exectuable"
+    [master 18d8011] exectuable
      2 files changed, 10 insertions(+), 4 deletions(-)
      create mode 100755 bin/hue
 
@@ -35,7 +35,7 @@
     @@@ Ruby
     Gem::Specification.new do |s|
       s.name        = "hue"
-      s.version     = PurdyColor::VERSION
+      s.version     = Hue::VERSION
       s.platform    = Gem::Platform::RUBY
       s.authors     = ["TODO: Write your name"]
       s.email       = ["TODO: Write your email address"]
@@ -60,13 +60,13 @@
     @@@ Ruby
     Gem::Specification.new do |s|
       s.name        = "hue"
-      s.version     = PurdyColor::VERSION
+      s.version     = Hue::VERSION
       s.platform    = Gem::Platform::RUBY
       s.authors     = ["Christopher Sexton"]
       s.email       = ["csexton@codeography.com"]
       s.homepage    = "http://codeography.com/hues"
       s.summary     = %q{Prints purdy colors to the console using ANSI escapes}
-      s.description = %q{Purdy ANSI Colors}
+      s.description = %q{ANSI Colors}
 
       s.rubyforge_project = "hue"
 
@@ -141,7 +141,7 @@ $ irb
 $ irb
 >> require 'hue'
 => true
->> puts PurdyColor.red "yay"
+>> puts Hue.red "yay"
 &nbsp;
 &nbsp;
 </pre>
@@ -151,7 +151,7 @@ $ irb
 $ irb
 >> require 'hue'
 => true
->> puts PurdyColor.red "yay"
+>> puts Hue.red "yay"
 <span style="color:red">yay</span>
 => nil
 </pre>

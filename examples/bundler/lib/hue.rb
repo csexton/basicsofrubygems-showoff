@@ -1,4 +1,4 @@
-module PurdyColor
+module Hue
 
   BLACK_FG = "\033[30m"
   RED_FG = "\033[31m"

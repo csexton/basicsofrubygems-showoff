@@ -4,4 +4,4 @@
 $:.unshift File.dirname(__FILE__) + '../lib'
 require 'hue'
 
-puts PurdyColor.red ARGV.join(" ")
+puts Hue.red ARGV.join(" ")
