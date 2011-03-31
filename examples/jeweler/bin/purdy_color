@@ -2,6 +2,6 @@
 
 #$LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
 $:.unshift File.dirname(__FILE__) + '../lib'
-require 'purdy_color'
+require 'hue'
 
 puts PurdyColor.red ARGV.join(" ")

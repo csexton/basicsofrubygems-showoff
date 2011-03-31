@@ -12,14 +12,14 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "hue"
-  gem.homepage = "http://github.com/csexton/hue"
+  gem.name = "purdy_color"
+  gem.homepage = "http://github.com/csexton/purdy_color"
   gem.license = "MIT"
   gem.summary = %Q{colors are purdy}
   gem.description = %Q{Color strings with ansi escape codes}
   gem.email = "csexton@gmail.com"
   gem.authors = ["Christopher Sexton"]
-  gem.executables = ["hue"]
+  gem.executables = ["purdy_color"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
@@ -45,7 +45,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "hue #{version}"
+  rdoc.title = "purdy_color #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

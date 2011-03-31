@@ -3,7 +3,7 @@
 .filename purdy\_color.gemspec
     @@@ Ruby
     Gem::Specification.new do |s|
-      s.name        = "hue"
+      s.name        = "purdy_color"
       s.version     = PurdyColor::VERSION
       s.platform    = Gem::Platform::RUBY
       s.authors     = ["TODO: Write your name"]
@@ -12,7 +12,7 @@
       s.summary     = %q{TODO: Write a gem summary}
       s.description = %q{TODO: Write a gem description}
 
-      s.rubyforge_project = "hue"
+      s.rubyforge_project = "purdy_color"
 
       s.files         = `git ls-files`.split("\n")
       s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -26,7 +26,7 @@
 .filename purdy\_color.gemspec
     @@@ Ruby
     Gem::Specification.new do |s|
-      s.name        = "hue"
+      s.name        = "purdy_color"
       s.version     = PurdyColor::VERSION
       s.platform    = Gem::Platform::RUBY
       s.authors     = ["TODO: Write your name"]
@@ -35,7 +35,7 @@
       s.summary     = %q{TODO: Write a gem summary}
       s.description = %q{TODO: Write a gem description}
 
-      s.rubyforge_project = "hue"
+      s.rubyforge_project = "purdy_color"
 
       s.files         = `git ls-files`.split("\n")
       s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -51,7 +51,7 @@
     $ bundle
     Fetching source index for http://rubygems.org/
     Using diff-lcs (1.1.2)
-    Using hue (0.0.1) from source at /src/hue
+    Using purdy_color (0.0.1) from source at /src/purdy_color
     Installing rspec-core (2.4.0)
     Installing rspec-expectations (2.4.0)
     Installing rspec-mocks (2.4.0)
@@ -62,7 +62,7 @@
 
     $ mkdir spec
     $ vim spec/spec_helper.rb
-    $ vim spec/hue_spec.rb
+    $ vim spec/purdy_color_spec.rb
 
 !SLIDE
 
@@ -70,7 +70,7 @@
     @@@ Ruby
     $:.unshift(File.dirname(__FILE__)+ '../lib')
     require 'rspec'
-    require 'hue'
+    require 'purdy_color'
 
 !SLIDE
 

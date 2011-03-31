@@ -4,7 +4,7 @@
 
 !SLIDE commandline incremental
 
-    $ jeweler hue --rspec
+    $ jeweler purdy_color --rspec
        create	.gitignore
        create	Rakefile
        create	Gemfile
@@ -12,12 +12,12 @@
        create	README.rdoc
        create	.document
        create	lib
-       create	lib/hue.rb
+       create	lib/purdy_color.rb
        create	spec
        create	spec/spec_helper.rb
-       create	spec/hue_spec.rb
+       create	spec/purdy_color_spec.rb
        create	.rspec
-    Jeweler has prepared your gem in hue
+    Jeweler has prepared your gem in purdy_color
 
 
 !SLIDE commandline incremental
@@ -85,7 +85,7 @@ spec/purdy\_color\_spec.rb
 !SLIDE commandline incremental
 
     $ rake build
-    (in /Users/csexton/src/hue)
+    (in /Users/csexton/src/purdy_color)
     rake aborted!
     "FIXME" or "TODO" is not a description
 
@@ -94,8 +94,8 @@ spec/purdy\_color\_spec.rb
     @@@ Ruby
     Jeweler::Tasks.new do |gem|
       # gem is a Gem::Specification
-      gem.name = "hue"
-      gem.homepage = "http://github.com/csexton/hue"
+      gem.name = "purdy_color"
+      gem.homepage = "http://github.com/csexton/purdy_color"
       gem.license = "MIT"
       gem.summary = %q{Prints purdy colors to the console using ANSI escapes}
       gem.description = %q{Purdy ANSI Colors}
@@ -106,7 +106,7 @@ spec/purdy\_color\_spec.rb
 !SLIDE commandline incremental
 
     $ rake version:write
-    (in /Users/csexton/src/newbiegems-showoff/hue)
+    (in /Users/csexton/src/newbiegems-showoff/purdy_color)
     Updated version: 0.0.0
     $ cat VERSION
      0.0.0
@@ -115,16 +115,16 @@ spec/purdy\_color\_spec.rb
 !SLIDE commandline incremental
 
     $ rake build                                                    ruby-1.9.2-p180
-    (in /Users/csexton/src/newbiegems-showoff/hue)
+    (in /Users/csexton/src/newbiegems-showoff/purdy_color)
       Successfully built RubyGem
-      Name: hue
+      Name: purdy_color
       Version: 0.0.0
-      File: hue-0.0.0.gem
+      File: purdy_color-0.0.0.gem
 
 !SLIDE commandline incremental
 
-    $ gem install pkg/hue-0.0.0.gem
-    Successfully installed hue-0.0.0
+    $ gem install pkg/purdy_color-0.0.0.gem
+    Successfully installed purdy_color-0.0.0
     1 gem installed
 
 !SLIDE commandline
@@ -142,7 +142,7 @@ $ irb
 
 <pre>
 $ irb
->> require 'hue'
+>> require 'purdy_color'
 => true
 >> puts PurdyColor.red "yay"
 <span style="color:red">yay</span>
@@ -152,7 +152,7 @@ $ irb
 !SLIDE commandline incremental
 
     $ mkdir bin
-    $ vim bin/hue
+    $ vim bin/purdy_color
 
 !SLIDE
 
@@ -161,7 +161,7 @@ $ irb
     @@@ Ruby
     #! /usr/bin/env ruby
     $:.unshift File.dirname(__FILE__)+'../lib'
-    require 'hue'
+    require 'purdy_color'
     puts "Lookit: #{ PurdyColor.red "Red" }"
 
 !SLIDE

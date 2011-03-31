@@ -1,0 +1,12 @@
+{ "name": "Basics of RubyGems", "sections":
+  [
+    {"section":"title"},
+    {"section":"goals"},
+    {"section":"nice"},
+    {"section":"reading"},
+    {"section":"howto"},
+    {"section":"bundler"},
+    /*{"section":"jeweler"},*/
+    {"section":"close"}
+  ]
+}

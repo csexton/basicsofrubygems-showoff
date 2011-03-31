@@ -1,4 +1,4 @@
 source "http://rubygems.org"
 
-# Specify your gem's dependencies in purdy_color.gemspec
+# Specify your gem's dependencies in hue.gemspec
 gemspec
