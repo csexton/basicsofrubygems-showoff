@@ -30,7 +30,7 @@
  * Prerelease (x.y.z__beta2__) - Letters in the number?
 
 !SLIDE bullets incremental
-# Version Numbers
+# Dependency Numbers
 
  * What you need
 

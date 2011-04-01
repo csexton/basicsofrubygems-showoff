@@ -1,4 +1,7 @@
 !SLIDE commandline incremental
+
+# Add a command line utility
+
     $ mkdir bin
     $ vim bin/hue
     $ chmod +x bin/hue
@@ -74,6 +77,8 @@
     end
 
 !SLIDE commandline incremental
+
+# Build your .gem
 
     $ gem build hue.gemspec
     Successfully built RubyGem
