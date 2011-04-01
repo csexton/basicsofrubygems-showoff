@@ -81,7 +81,7 @@
     Version: 0.0.1
     File: hue-0.0.1.gem
 
-    $ gem install hue-0.0.1
+    $ gem install hue-0.0.1.gem
     hue (0.0.1) installed
 
 !SLIDE commandline

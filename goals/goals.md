@@ -17,7 +17,6 @@
 
 # MINASWAN
 * __M__atz __I__s __N__ice __A__nd __S__o __W__e __A__re __N__ice
-* This effects how you build a gem
 
 !SLIDE bullets
 
