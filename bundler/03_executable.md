@@ -59,8 +59,8 @@
       s.platform    = Gem::Platform::RUBY
       s.authors     = ["Christopher Sexton"]
       s.email       = ["csexton@codeography.com"]
-      s.homepage    = "http://codeography.com/hues"
-      s.summary     = %q{Prints purdy colors to the console using ANSI escapes}
+      s.homepage    = "http://basicsofrubygems.heroku.com"
+      s.summary     = %q{Prints purdy colors to the console}
       s.description = %q{ANSI Colors}
 
       s.rubyforge_project = "hue"
