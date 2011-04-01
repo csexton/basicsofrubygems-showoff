@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Hue::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Christopher Sexton"]
-  s.homepage    = ""
+  s.homepage    = "http://basicsofrubygems.heroku.com"
   s.summary     = %q{Prints purdy colors to the console using ANSI escapes}
   s.description = %q{Purdy ANSI Colors}
 
