@@ -1,6 +1,26 @@
 !SLIDE center
 ![Reading RubyGems](reading_rubygems.png)
 
+!SLIDE bullets incremental
+
+ * More you read code
+
+ * Easier it is to read code
+
+ * More you learn
+
+ * More you understand
+
+!SLIDE bullets incremental
+
+ * More you read code
+
+ * Easier it is to read code
+
+ * More you learn
+
+ * More you understand
+
 
 
 !SLIDE

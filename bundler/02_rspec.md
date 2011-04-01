@@ -72,7 +72,6 @@
     require 'rspec'
     require 'hue'
 
-!SLIDE
 
 .filename spec/hue\_spec.rb
 

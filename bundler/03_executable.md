@@ -19,10 +19,10 @@
     [master 18d8011] exectuable
      2 files changed, 10 insertions(+), 4 deletions(-)
      create mode 100755 bin/hue
-    $ rake build
-    (in /Users/csexton/src/hue)
-    rake aborted!
-    "FIXME" or "TODO" is not a description
+    $ gem build hue.gemspec
+    ERROR:  While executing gem ... (Gem::InvalidSpecificationException)
+        "FIXME" or "TODO" is not a summary
+
 
 !SLIDE smaller
 
