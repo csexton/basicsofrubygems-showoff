@@ -1,9 +1,9 @@
 { "name": "Basics of RubyGems", "sections":
   [
     {"section":"title"},
-    {"section":"goals"},
+    /*{"section":"goals"},*/
     {"section":"nice"},
-    {"section":"reading"},
+    /*{"section":"reading"},*/
     {"section":"howto"},
     {"section":"bundler"},
     /*{"section":"jeweler"},*/

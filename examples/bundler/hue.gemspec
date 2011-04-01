@@ -4,7 +4,7 @@ require "hue/version"
 
 Gem::Specification.new do |s|
   s.name        = "hue"
-  s.version     = PurdyColor::VERSION
+  s.version     = Hue::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Christopher Sexton"]
   s.homepage    = ""

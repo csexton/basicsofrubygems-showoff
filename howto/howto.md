@@ -10,7 +10,7 @@
 .notes ## "Do, or do not. There is no try." —Yoda
 .notes Do not fear mistakes. You will know failure. Continue to reach out. - Benjamin Franklin
 
-!SLIDE bullets incremental
+!SLIDE bullets
 
 # Tools
 

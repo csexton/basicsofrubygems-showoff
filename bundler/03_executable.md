@@ -7,8 +7,7 @@
 
 .filename bin/hue
     @@@ Ruby
-    #! /usr/bin/env ruby
-
+    #!/usr/bin/env ruby
     $:.unshift File.dirname(__FILE__) + '/../lib'
     require 'hue'
 
@@ -20,10 +19,6 @@
     [master 18d8011] exectuable
      2 files changed, 10 insertions(+), 4 deletions(-)
      create mode 100755 bin/hue
-
-
-!SLIDE commandline incremental
-
     $ rake build
     (in /Users/csexton/src/hue)
     rake aborted!
@@ -80,13 +75,13 @@
 
 !SLIDE commandline incremental
 
-    $ rake build
-    (in /Users/csexton/src/hue)
-    hue 0.0.1 built to pkg/hue-0.0.1.gem
+    $ gem build hue.gemspec
+    Successfully built RubyGem
+    Name: hue
+    Version: 0.0.1
+    File: hue-0.0.1.gem
 
-    $ rake install
-    (in /Users/csexton/src/hue)
-    hue 0.0.1 built to pkg/hue-0.0.1.gem
+    $ gem install hue-0.0.1
     hue (0.0.1) installed
 
 !SLIDE commandline

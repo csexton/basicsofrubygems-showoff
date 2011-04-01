@@ -12,19 +12,17 @@
 .notes "The source code is the source of information and knowledge." — Matz
 .notes "Talk is cheap. Show me the code." — Linus Torvalds
 
-!SLIDE bullets incremental
+!SLIDE bullets
 
 # Got to find it first
 
- * `find . | grep "gem_name"` ... and wait
-
- * `locate gem_name`
 
  * Open Gem: `gem open`
 
  * `bundle show`
 
-
+.notes  * `find . | grep "gem_name"` ... and wait
+.notes  * `locate gem_name`
 !SLIDE
           my_gem/
           ┣ my_gem.gemspec
