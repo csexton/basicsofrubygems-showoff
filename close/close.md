@@ -7,10 +7,9 @@
 ![Thanks](thanks.png)
 
 
-.notes github.com/csexton
-.notes www.codeography.com
-.notes @fuzzymonk
-
-.notes Slides Available on Heroku: basicsofrubygems.heroku.com
-
+!SLIDE
+### Slides Available on Heroku: [basicsofrubygems.heroku.com](http://basicsofrubygems.heroku.com)
+### [github.com/csexton](http://github.com/csexton)
+### [ www.codeography.com ](http://www.codeography.com)
+### [@fuzzymonk](http://twitter.com/fuzzymonk)
 
