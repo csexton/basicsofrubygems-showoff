@@ -18,8 +18,8 @@
 
 !SLIDE commandline incremental
 
-    $ git commit -am "exectuable"
-    [master 18d8011] exectuable
+    $ git commit -am "executable"
+    [master 18d8011] executable
      2 files changed, 10 insertions(+), 4 deletions(-)
      create mode 100755 bin/hue
     $ gem build hue.gemspec
