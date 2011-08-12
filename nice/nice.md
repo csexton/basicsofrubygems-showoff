@@ -18,6 +18,13 @@
 
  * &nbsp;
 
+!SLIDE
+
+.filename Tom Preston-Werner's
+# Semantic Versioning
+## http://semver.org/
+
+
 !SLIDE bullets
 # Version Numbers
 
@@ -29,7 +36,7 @@
 
  * Prerelease (x.y.z__beta2__) - Letters in the number?
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Dependency Numbers
 
  * What you need
@@ -52,13 +59,6 @@
 # BUNDLE UPDATE
 ![rageface](ragetest.png)
 # NOTHING WORKS
-
-!SLIDE
-
-.filename Tom Preston-Werner's
-# Semantic Versioning
-## http://semver.org/
-
 
 
 !SLIDE center
